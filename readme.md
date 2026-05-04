@@ -59,7 +59,6 @@
 
 ## 📂 Cấu trúc project
 MDSHOP/
-│
 ├── mobile/                 # Ứng dụng React Native (Frontend)
 │   ├── assets/             # Hình ảnh, font, icon
 │   ├── components/         # UI components
@@ -68,7 +67,6 @@ MDSHOP/
 │   ├── stateManagement/    # Redux Toolkit (store, slices)
 │   ├── services/           # Gọi API
 │   └── App.js              # Entry point
-│
 ├── backend/                # Server API (Node.js + Express)
 │   ├── config/             # Cấu hình DB, env
 │   ├── controllers/        # Xử lý logic
@@ -77,7 +75,8 @@ MDSHOP/
 │   ├── middleware/         # Auth, error handler
 │   ├── utils/              # Helper functions
 │   └── server.js           # Entry point
-│
 ├── .gitignore              # Bỏ qua file không cần thiết
 ├── README.md               # Tài liệu project
 └── package.json            # (nếu có root config)
+
+---
